@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bk_all">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/background_btn">
+            <TextView
+                android:id="@+id/found_fg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="发现   · 生活"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColor="#FFFFFF" />
+       </RelativeLayout>
+
+        <com.helloar.activity.SlideShowView  
+        android:id="@+id/slideshowView"  
+        android:layout_width="fill_parent"  
+        android:layout_height="180dp"  
+        android:layout_centerHorizontal="true" />   
+
+    <!--   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/fengeline" >
+      </LinearLayout> -->
+        
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/w_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="122dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffcccc"
+                    android:scaleType="centerCrop"
+                    android:text="甜蜜燕尔" 
+                     android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ff6666"/>
+
+                <Button
+                    android:id="@+id/c_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="122dp"
+                    android:layout_weight="1"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffcc"
+                    android:scaleType="centerCrop"
+                    android:text="天伦之乐" 
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ff6666"/>
+
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/f_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="0.96"
+                    android:background="#ffcc99"
+                    android:onClick="famBtn"
+                    android:scaleType="centerCrop"
+                    android:text="四世同堂" 
+                     android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ff6666"/>
+
+            </LinearLayout>
+            
+          </LinearLayout>
+         <!--   <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/fengeline" 
+            android:layout_marginBottom="2dp">
+          </LinearLayout>
+ -->
+</LinearLayout>
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical|center"
+         android:orientation="vertical" 
+         android:background="@drawable/shape_rectangle_white">
+        
+       
+        <TextView
+            android:id="@+id/shareto"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="分享到"
+            android:textSize="15sp"
+             />
+
+            <LinearLayout
+                android:id="@+id/fp_linear_share"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="5dp">
+
+
+               <!--  <LinearLayout
+                    android:id="@+id/fp_linear_sharetoWeixin"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@mipmap/ic_launcher"
+                        android:layout_gravity="bottom|center_horizontal"/>
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="微信联系人"
+                        android:gravity="center"
+                        />
+                </LinearLayout> -->
+               <!--  <LinearLayout
+                    android:id="@+id/fp_linear_sharetoquan"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@mipmap/ic_launcher"
+                        android:layout_gravity="bottom|center_horizontal"/>
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="微信朋友圈"
+                        android:gravity="center"
+                        />
+                </LinearLayout> -->
+                <LinearLayout
+                    android:id="@+id/ll_share_qq"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/ssdk_oks_classic_qq"
+                        android:layout_gravity="bottom|center_horizontal"/>
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="QQ好友"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_share_wechat"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:background="@drawable/ssdk_oks_classic_wechat"
+                        android:layout_gravity="bottom|center_horizontal"/>
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="微信好友"
+                        android:gravity="center"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#e8e8e8" />
+            <TextView
+                android:id="@+id/fp_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center"        
+                android:text="取消"
+                android:textSize="17sp" />
+    </LinearLayout>
+</LinearLayout>
+

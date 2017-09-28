@@ -1,0 +1,21 @@
+<resources>
+<string name="app_name">影迹</string>
+
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="recomm_prefecture_video_erro">视频播放错误，请重试!</string>
+
+ <string-array name="lv_title">
+        <item>言志风尚1706期【宴会婚礼布景工程学】圆满毕业</item>
+  		<item>这才是拍全家福的最高境界！ </item>
+  		<item>没有摄影师全家福怎么拍，宝宝给你示范</item>
+  		<item>G20峰会全家福拍照特朗普被“边缘”了</item>
+  		<item>G20峰会全家福拍照特朗普被“边缘”了</item>
+  		<item>G20峰会全家福拍照特朗普被“边缘”了</item>
+  		<item>G20峰会全家福拍照特朗普被“边缘”了</item>
+  		<item>G20峰会全家福拍照特朗普被“边缘”了</item>
+  		<item>G20峰会全家福拍照特朗普被“边缘”了</item>
+  		<item>G20峰会全家福拍照特朗普被“边缘”了</item>
+    </string-array>
+
+</resources>

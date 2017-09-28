@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical" >
+        
+        <FrameLayout
+            android:id="@+id/all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+          
+            <FrameLayout
+                android:id="@+id/preview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"  >
+            </FrameLayout>
+            
+            
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" 
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/mback_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="22dp"
+                        android:src="@drawable/back" />
+
+                    <ImageView
+                        android:id="@+id/search_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="16dp"
+                        android:src="@drawable/search1" />
+                    
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:id="@+id/id_no_reuse"
+                    android:layout_gravity="bottom"
+                    android:alpha="0.5" >
+
+                    
+                    <Button
+                        android:id="@+id/ib_start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:layout_centerInParent="true"
+                        android:textColor="@drawable/text_color_selector"
+                        android:text="录制"
+                        android:background="@drawable/bgg"/>
+
+                    <Button
+                        android:id="@+id/ib_stop"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:layout_alignParentRight="true"
+                         android:textColor="@drawable/text_color_selector"
+                        android:text="停止"
+                        android:background="@drawable/bgg"/>
+                    <Button
+                        android:onClick="myProfile"
+                        android:id="@+id/ib_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                         android:layout_alignParentLeft="true"
+                        android:layout_margin="20dp"   
+                         android:textColor="@drawable/text_color_selector"                     
+                        android:text="我的"
+                        android:background="@drawable/bgg"/>
+
+                </RelativeLayout>
+  
+        </FrameLayout>
+
+    </LinearLayout>
+</RelativeLayout>

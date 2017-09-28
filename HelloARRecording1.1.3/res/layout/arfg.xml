@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <!-- <Button
+        android:id="@+id/ar_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="进入扫描" /> -->
+
+<RelativeLayout
+    android:id="@+id/ar_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_ani_outside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/scan_outside_anim" />
+
+    <ImageView
+        android:id="@+id/iv_ani_middle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/scan_middle_anim" />
+
+    <ImageView
+        android:id="@+id/iv_ani_inside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/scan_inside_anim" />
+
+    <TextView
+        android:id="@+id/ar_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_ani_outside"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:text="点击开启AR" />
+</RelativeLayout>
+
+</LinearLayout>

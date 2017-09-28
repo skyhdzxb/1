@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/funinfo_rl"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/background_btn"
+            android:orientation="horizontal">
+
+           <ImageView
+                android:id="@+id/funinfo_back_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/back_white" 
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+            android:id="@+id/funinfo_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="功能介绍"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#FFFFFF" />
+        </RelativeLayout>
+       
+      
+        <RelativeLayout
+            android:id="@+id/clear_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list"
+            android:padding="15dp">
+        <TextView
+            android:id="@+id/clear_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="“影迹”APP是采用增强现实（Augmented Reality，简称 AR）技术，给目标图片加上若干个辨识点，通过网页端编辑器编辑后，在服务器上跟某个相关视频关联，用户在通过APP扫描目标照片时  ，可以显示该视频，形成照片和视频的有效融合。
+   
+    使用方法：用户通过手机号作为用户名进行注册，登录后，可以在“AR扫描”界面开始辨识自己名下的图片，也可以通过上方搜索栏，找到其他用户名，开始辨识对方名下的图片。 在辨识过程中，可以录屏，分享到微信、QQ。用户可以在“我的”界面进行修改密码等操作，查看自己名下的图片，并可以随时清理缓存。"
+            android:textSize="18sp"  />
+        </RelativeLayout>
+
+        
+    </LinearLayout>
+
+</ScrollView>

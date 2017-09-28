@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/bk_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/mineset_rl"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+             android:background="@drawable/background_btn" >
+
+           <ImageView
+               android:onClick="back"
+                android:id="@+id/back_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/back_white" 
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+            android:id="@+id/mineset_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="个人设置"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textColor="#FFFFFF" />
+        </RelativeLayout>
+       
+       <!--  <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dip"
+        android:background="#cccccc" />
+     
+        <RelativeLayout
+            android:id="@+id/cgphone_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list"
+            android:padding="10dp">
+        <TextView
+            android:id="@+id/cgphone_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/arrow_normal"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="更换手机"
+            android:textSize="18sp" />
+        </RelativeLayout> -->
+
+
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dip"
+        android:background="#cccccc" />
+
+
+        <RelativeLayout
+            android:id="@+id/cgpassword_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list"
+            android:padding="10dp">
+        <TextView
+            android:id="@+id/cgpassword_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/arrow_normal"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="修改密码"
+            android:textSize="18sp" />
+        </RelativeLayout>
+
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="8dip"
+        android:background="#cccccc" />
+
+        <RelativeLayout
+            android:id="@+id/clear_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_list"
+            android:padding="10dp">
+        <TextView
+            android:id="@+id/clear_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/arrow_normal"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="清除缓存"
+            android:textSize="18sp"  />
+        </RelativeLayout>
+
+      
+    </LinearLayout>
+
+</ScrollView>
